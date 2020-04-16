@@ -16,5 +16,10 @@
     "symfony/dependency-injection": "^4.0",
     "symfony/serializer": "^4.3 || ^5.0",
     "api-platform/core": "^2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Cvek\\ApipGraphqlValidatorFormatter\\": "src/"
+    }
   }
 }

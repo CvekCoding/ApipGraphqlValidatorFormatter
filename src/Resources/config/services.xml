@@ -13,5 +13,6 @@
             <argument type="service" id="api_platform.validator" />
             <argument type="service" id="serializer" />
         </service>
+        <service id="Cvek\ApipGraphqlValidatorFormatter\ValidateStage" alias="cvek.apip_graphql_validator_formatter.validate_stage" public="false" />
     </services>
 </container>
