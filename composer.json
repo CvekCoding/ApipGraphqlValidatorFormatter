@@ -1,5 +1,5 @@
 {
-  "name": "cvek/ApipGraphqlValidatorFormatter",
+  "name": "cvek/apip-graphql-validator-formatter",
   "description": "Graphql validate error formatter for API Platform",
   "minimum-stability": "stable",
   "license": "MIT",
