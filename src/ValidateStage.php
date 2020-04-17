@@ -51,7 +51,7 @@ final class ValidateStage implements ValidateStageInterface
                 /** @var ResolveInfo $info */
                 $info = $context['info'];
 
-                throw Error::createLocatedError($this->serializer->serialize($e->getConstraintViolationList(),'json'), $info->fieldNodes, $info->path);
+                throw Error::createLocatedError($this->serializer->serialize($e->getConstraintViolationList(),'jsonproblem'), $info->fieldNodes, $info->path);
             } catch (\Exception $e) {
                 throw $error;
             }
